@@ -8,5 +8,8 @@ $ make build
 
 ## run
 ```bash
-$ make run
+# Run in REPL mode
+$ /bin/lox 
+# Run from source
+$ /bin/lox helloworld.lox
 ```
