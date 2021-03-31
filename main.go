@@ -12,10 +12,13 @@ func main() {
 }
 
 type Lox struct {
+	hadError bool
 }
 
-func (*Lox) run(source []byte) {
-
+func (lox *Lox) runFromSource(source []byte) {
+	if lox.hadError {
+		os.Exit(65)
+	}
 }
 
 func (lox *Lox) runRepl() {
@@ -23,6 +26,7 @@ func (lox *Lox) runRepl() {
 	for {
 		fmt.Print("> ")
 		fmt.Scanln(&input)
+		lox.hadError = false
 	}
 }
 
@@ -42,7 +46,7 @@ func (lox *Lox) start() {
 		if err != nil {
 			lox.exit("Error while reading file %s", 1)
 		}
-		lox.run(source)
+		lox.runFromSource(source)
 	} else {
 		lox.runRepl()
 	}
