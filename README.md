@@ -1,4 +1,4 @@
-### golox
+# golox
 Golang implement for `lox` programming language 
 More detail: [craftinginterpreters](craftinginterpreters.com/introduction.html)
 ## prerequisites
