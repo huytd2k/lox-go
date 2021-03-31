@@ -4,15 +4,15 @@ Golang implement for `lox` programming language
 More detail: [craftinginterpreters](https://craftinginterpreters.com/introduction.html)
 
 Current implement process: 3.1
-## prerequisites
+## Prerequisites
 - golang >= 1.16
 
-## build
+## Build
 ```bash
 $ make build
 ```
 
-## run
+## Run
 ```bash
 # Run in REPL mode
 $ bin/lox 
