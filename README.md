@@ -2,6 +2,8 @@
 Golang implement for `lox` programming language 
 
 More detail: [craftinginterpreters](https://craftinginterpreters.com/introduction.html)
+
+Current implement process: 3.1
 ## prerequisites
 - golang >= 1.16
 
