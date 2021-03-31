@@ -1,7 +1,7 @@
 # golox
 Golang implement for `lox` programming language 
 
-More detail: [craftinginterpreters](craftinginterpreters.com/introduction.html)
+More detail: [craftinginterpreters](https://craftinginterpreters.com/introduction.html)
 ## prerequisites
 - golang >= 1.16
 
