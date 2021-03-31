@@ -13,7 +13,7 @@ $ make build
 ## run
 ```bash
 # Run in REPL mode
-$ /bin/lox 
+$ bin/lox 
 # Run from source
-$ /bin/lox helloworld.lox
+$ bin/lox helloworld.lox
 ```
